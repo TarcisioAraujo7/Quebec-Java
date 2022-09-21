@@ -1,7 +1,7 @@
 public class Conta {
-    private Cliente cliente;
-    private double saldo;
-    private static Integer conta = 1;
+    protected Cliente cliente;
+    protected double saldo;
+    protected static Integer conta = 1;
 
     public Conta(Cliente cliente) {
         this.cliente = cliente;
